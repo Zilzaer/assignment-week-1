@@ -92,7 +92,6 @@ h1 {
 .text-design {
   text-indent: 1rem;
   line-height: 1rem;
-  color: rgb(83, 83, 83);
 }
 
 .background {
@@ -114,5 +113,9 @@ nav a:hover {
 
 button a {
   text-decoration: none;
+  color: white;
+}
+.text-design-section-1 {
+  size: 2rem;
   color: white;
 }
