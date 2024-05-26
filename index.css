@@ -1,0 +1,118 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.flex-direction-left {
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  align-self: center;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.flex-align-right {
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  padding-right: 1rem;
+  list-style-type: none;
+}
+ul {
+  list-style: none;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+}
+
+.expand-in-view {
+  width: 100vw;
+  height: 100vh;
+}
+
+.button-design {
+  text-decoration: none;
+}
+
+button {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: black;
+  text-decoration-color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.welcomep {
+  background-image: url(./images/daddy.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.aboutp {
+  background-image: url(./images/nebula.gif);
+  background-size: contain;
+  background-position: center center;
+}
+
+.text-design {
+  text-indent: 1rem;
+  line-height: 1rem;
+  color: rgb(83, 83, 83);
+}
+
+.background {
+  background: rgba(64, 63, 63, 0.808);
+  filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+.link {
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: chartreuse;
+}
+
+nav a:hover {
+  color: blueviolet;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
