@@ -1,6 +1,7 @@
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: black;
+  overflow-x: hidden;
 }
 
 .flex-container {
@@ -118,4 +119,14 @@ button a {
 .text-design-section-1 {
   size: 2rem;
   color: white;
+}
+.text-position-absolute {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+}
+.absolute-img {
+  position: absolute;
+  top: 15px;
+  right: 10px;
 }
